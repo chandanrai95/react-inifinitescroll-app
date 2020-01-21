@@ -57,7 +57,7 @@ const  App = () =>  {
   },[pageNumber])
 // console.log(dataList)
   return (
-    <div className="App container" style={{ backgroundColor: 'blue', padding: "10px"}}>
+    <div className="App container" style={{ padding: "10px"}}>
         { 
           dataList.map((ele, idx) => {
             if(dataList.length === idx+1)
